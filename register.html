@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register New Account</title>
+    <link rel="website icon" href="r.png">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        body{
+            background: url(bg.jpg);
+            background-size: cover;
+        }
+        .container{
+            width: 500%;
+            background-color: #fff;
+            
+        }
+        .Register{
+            background-color:#CED46A;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+            padding-left: 20px;
+            padding-right: 40px;
+            border-radius: 20px;
+            padding-top:12px;
+        }
+        .Register h1{
+          font-size: 28px;
+          text-align: center;
+          text-transform: uppercase;
+          margin: 16px ;
+        }
+        .Register p{
+            padding-top:8px;
+            font-size: 20px;
+            margin: 8px;
+        }
+        .Register input{
+            font-size: 15px;
+            padding: 5px ;
+            width: 80%;
+            border: 0;
+            border-radius: 8px;
+            margin-left:40px;
+        }
+        .Register button{
+            font-size: 18px;
+            font-weight: bold;
+            margin: 35px 0;
+            padding: 10px;
+            width: 100%;
+            border-radius: 12px;
+            background-color: #000;
+            color: #fff;
+            margin-left: 10px;
+        }
+        .Register button:hover{
+            background-color: goldenrod;
+            text-transform: uppercase;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="Register">
+    
+        <h1>Register New Account</h1>
+        
+        <form action="#" method="post">
+            <p>Full Name:</p>
+            <input type="text" name="Full Name" placeholder="Full Name">
+            <p>User Name:</p>
+            <input type="text" name="Username" placeholder="Username">
+            <p>Email:</p>
+            <input type="text" name="email" placeholder="Email">
+            <p>password:</p>
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit">Register</button>    
+        </form>
+    </div>
+</body>
+</html>
